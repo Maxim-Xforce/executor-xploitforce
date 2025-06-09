@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Executor Android By XploitForce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #111;
+      color: #fff;
+      animation: fadeIn 1s ease-in;
+      transition: all 0.5s ease-in-out;
+    }
+    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background-color: #000;
+      padding: 20px;
+      animation: slideDown 1s ease-out;
+    }
+    @keyframes slideDown { from { transform: translateY(-50px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    header img { height: 90px; transition: transform 0.3s ease; }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 24px;
+      text-align: center;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background-color: #1c1c1c;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      animation: zoomIn 0.5s ease-in;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255,255,255,0.3);
+      background-color: #222;
+    }
+    @keyframes zoomIn { from {transform: scale(0.9); opacity: 0;} to {transform: scale(1); opacity: 1;} }
+    .card img { height: 100px; margin-bottom: 10px; }
+    .card h3 {
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 5px;
+    }
+    .version {
+      font-size: 14px;
+      color: #bbb;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 15px;
+    }
+    .card a {
+      display: inline-block;
+      padding: 10px 22px;
+      background: linear-gradient(135deg, #fff, #ccc);
+      color: #000;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      animation: pulse 2s infinite;
+    }
+    .card a:hover {
+      background: #eee;
+      transform: scale(1.1);
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0px rgba(255,255,255,0.5); }
+      50% { box-shadow: 0 0 12px rgba(255,255,255,0.8); }
+    }
+    .updated {
+      text-align: center;
+      margin-top: 10px;
+      color: #888;
+      font-size: 13px;
+    }
+    footer {
+      background-color: #000;
+      border-top: 1px solid #333;
+    }
+    .marquee {
+      font-size: 14px;
+      padding: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 8s linear infinite, rainbow 10s linear infinite;
+      font-weight: bold;
+    }
+    @keyframes marquee {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(-100%, 0); }
+    }
+    @keyframes rainbow {
+      0%{color: red;} 20%{color: orange;} 40%{color: yellow;}
+      60%{color: green;} 80%{color: blue;} 100%{color: violet;}
+    }
+    .join-group {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.7;
+      font-size: 14px;
+    }
+    .join-group a {
+      color: #00f7ff;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    .join-group a:hover {
+      color: #0ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://files.catbox.moe/ojs2jp.png" alt="Logo Kiri">
+    <h1>Executor Android By XploitForce</h1>
+    <img src="https://files.catbox.moe/rvxqeu.png" alt="Logo Kanan">
+  </header>
+  <div class="container">
+    <!-- Kartu Delta -->
+    <div class="card">
+      <img src="https://files.catbox.moe/yqlpzj.png" alt="Delta">
+      <h3>Delta</h3>
+      <div class="version">v2.675</div>
+      <p>Executor ringan dan cepat, cocok untuk script Lua populer. Aman dan responsif.</p>
+      <a href="https://deltaexploits.gg/android_dl" target="_blank">Download Sekarang</a>
+    </div>
+    <!-- Kartu Fluxus -->
+    <div class="card">
+      <img src="https://files.catbox.moe/yaktwc.png" alt="Fluxus">
+      <h3>Fluxus</h3>
+      <div class="version">v2.673</div>
+      <p>Executor premium dengan tampilan modern, stabil, dan mendukung banyak script kompleks.</p>
+      <a href="https://isnahamzah.tech/executor-fluxus-android-terbaik" target="_blank">Download Sekarang</a>
+    </div>
+    <!-- Kartu Codex -->
+    <div class="card">
+      <img src="https://files.catbox.moe/9rruxf.png" alt="Codex">
+      <h3>Codex Android</h3>
+      <div class="version">v2.675</div>
+      <p>Executor Android yang simpel tapi powerful. Dukungan luas untuk berbagai game Roblox.</p>
+      <a href="https://codex.lol/android" target="_blank">Download Sekarang</a>
+    </div>
+    <!-- Kartu Arceus -->
+    <div class="card">
+      <img src="https://files.catbox.moe/d27qyh.png" alt="Arceus">
+      <h3>Arceus X Neo</h3>
+      <div class="version">v1.7.0</div>
+      <p>Executor canggih dan favorit banyak pengguna, injeksi cepat dan tampilan keren.</p>
+      <a href="https://spdmteam.com/index?os=android" target="_blank">Download Sekarang</a>
+    </div>
+  </div>
+
+  <div class="updated" id="updateText">Last Updated: ...</div>
+
+  <div class="join-group">
+    UNTUK INFO SELENGKAPNYA SILAHKAN <a href="https://chat.whatsapp.com/CtojhC21NzmHbV2KfmxjjV" target="_blank">GABUNG GRUB KITA</a>.
+  </div>
+
+  <footer>
+    <div class="marquee">
+      <span>SITUS WEBSITE INI DI RANCANG OLEH 𝙈𝙖𝙭 𝘼𝙙𝙢𝙞𝙣 𝙓𝙥𝙡𝙤𝙞𝙩𝙁𝙤𝙧𝙘𝙚 DAN 𝘾𝙃𝘼𝙏𝙂𝙋𝙏.</span>
+    </div>
+  </footer>
+
+  <script>
+    const lastUpdatedDate = new Date('2025-06-05'); // Ganti tanggal ini saat update konten
+    const today = new Date();
+    const timeDiff = today - lastUpdatedDate;
+    const dayDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+    document.getElementById("updateText").textContent = `Last Updated: ${dayDiff} Day${dayDiff !== 1 ? 's' : ''} Ago`;
+  </script>
+</body>
+</html>
